@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+
+    display: flex;
+    justify-content: space-around;
+}
+:focus{
+    outline: none;
+}
+section{
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(135deg, rgb(134, 222, 251), rgb(216, 216, 124));
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+section .leftpanel{
+    width: 400px;
+    
+}
+section .rightpanel{
+    background: white;
+    width: 300px;
+    height: 350px;
+}
+section .leftpanel h1{
+    font-size: 30pt;
+}
